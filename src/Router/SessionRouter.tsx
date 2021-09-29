@@ -32,13 +32,6 @@ const SessionRouter = (props: any) => {
       </div>
       <div className="bg-white flex items-center">
         <div className="max-w-5xl mx-auto flex md:flex-row flex-col p-4 f-full items-center">
-          <div className="mx-auto p-2">
-            <img
-              className="h-20"
-              src="https://cdn.coronasafe.network/ksdma_logo.webp"
-              alt="Care Logo"
-            />
-          </div>
           <div className="max-w-xl text-sm">
             <a href="https://coronasafe.network/" className="text-gray-600">
               {t("footer_body")}
